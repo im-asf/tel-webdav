@@ -47,8 +47,8 @@ EXPOSE 1900
 
 ENV DATA_DIR=/home/tgfs/.tgfs
 
-RUN mkdir -p /home/tgfs/.tgfs && cp home/tgfs/.tgfs/config.yaml /home/tgfs/.tgfs/config.yaml
 COPY home/tgfs/.tgfs/config.yaml /home/tgfs/.tgfs/config.yaml
+RUN mkdir -p /home/tgfs/.tgfs && cp home/tgfs/.tgfs/config.yaml /home/tgfs/.tgfs/config.yaml
 
 # Run the application
 CMD ["python", "main.py"]
