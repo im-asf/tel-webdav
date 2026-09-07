@@ -1,0 +1,31 @@
+telegram:
+  api_id: '1409336'
+  api_hash: d8e699217dfe8db295b542bc5710fae5
+  lib: pyrogram
+  account:
+    session_file: account.session
+    used_to_upload: false
+    used_to_download: false
+  bot:
+    session_file: bot.session
+    tokens:
+      - 1345497722:AAHkzM_3_XPeEYq7VL78zUCINBFRW90ID_A
+  private_file_channel:
+    - '-1002054099386'
+tgfs:
+  users:
+    asf:
+      password: GreenSikkim
+  download:
+    chunk_size_kb: 1024
+  jwt:
+    secret: DhXWjsCis%t3GtHd5ZPEW:;4L++8|Wt)gfC1{{o@g.NxAb(c,CeSbR6sC{yiLHjV
+    algorithm: HS256
+    life: 604800
+  metadata:
+    '-1002054099386':
+      name: default
+      type: pinned_message
+  server:
+    host: 192.168.10.10
+    port: 8080
